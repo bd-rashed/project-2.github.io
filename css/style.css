@@ -1,0 +1,133 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}.flex{
+	display: flex;
+}.medol{ width: 80%; margin: 0 auto; }.col-1-5{
+	width: 13%;
+}.col-2{
+	width: 16.66666%;
+}.col-3{
+	width: 25%;
+}.col-4{
+	width: 33.33%;
+}.col-6{
+	width: 49.99998%;
+}.col-8{
+	width: 66.6666%;
+}.col-9{
+	width: 75%;
+}.col-12{
+	width: 100%;
+}
+								
+								/*Header Style Start From Here*/
+
+header{
+	background: #e8ebf1;
+	text-align: center;
+}
+.logo img{
+	width: 100%;
+	padding: 20px 30%;
+	float: right;
+}
+.menu > ul{
+	width: 100%;
+	display: inline-block;
+	list-style-type: none;
+	padding: 20px 0px;
+}
+.menu > ul > li{
+	display: inline-block;
+	position: relative;
+	border-top: 3px solid transparent;
+	padding: 12px 20px;
+}
+.menu > ul > li:hover{
+	background: #fff;
+	border-top: 3px solid #2aacc8;
+	text-align: center;
+}
+.menu > ul > li  a{
+	text-decoration: none;
+	color: #000;
+	font-size: 13px;
+}
+.menu > ul > li a:hover ,a:focus {
+	color: #2aacc8;
+}
+.sub{
+	width: 220%;
+	background: #fff;
+	position: absolute;
+	top:100%;
+	left:0;
+	list-style-type: none;
+	padding: 0px 10px;
+	border-bottom: 3px solid #2aacc8;
+	display: none;
+	z-index: 1;
+}
+.sub li{
+	border-bottom: 1px solid #2aacc8;
+	text-align: left;
+}
+.sub li a{
+	padding: 10px 10px;
+	display: inline-block;
+}
+.menu>ul>li:hover .sub {
+	display: block;
+}
+
+								/*Header Style End Here*/
+
+								/*Slider Section Style Start From Here*/
+
+#Slider{
+	background: #81e4ed;
+	padding: 20px 0px 0px 0px;
+	z-index: 0;
+	position: relative;
+}
+#Slider .nextIcon{
+	width: 100%;
+	text-align: center;
+	font-size: 16px;
+	color: #71a3a7;
+}
+#Slider .nextIcon i{
+	padding: 20px .5%;
+}
+#Slider .nextIcon i:nth-child(3){
+	color: #fff;
+}
+
+								/*Slider Section Style End Here*/
+
+								/*Service Section Style Start From Here*/
+
+#service{
+	padding: 40px 0px;
+	background: #e8ebf1;
+}
+#service .medol .col-3{
+	padding: 10px;
+}
+#service .medol .col-3 h2{
+	font-size: 20px;
+}
+#service .medol .col-3 i{
+	color: #fff;
+}
+#service .medol .col-3 p{
+	padding: 20px 0px;
+	display: inline-block;
+}
+#service .medol .col-3 a{
+	text-decoration: none;
+}
+
+								/*Service Section Style End Here*/
